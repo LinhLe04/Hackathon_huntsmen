@@ -1,0 +1,15 @@
+Some quirks in my CSS template
+- Bottom-border effect on mission link (topnav) might disappear --> have to manually set up
+
+.topnav a[href*="mission.html"]:hover {
+    /*Overriding non-hovering effects for sub-task 2A link*/
+    color: white;
+    border-bottom: 6px solid;
+    border-bottom-color: #024213;
+ }
+
+Hero images on homepage and mission page were set differently
+- Homepage: image link in CSS
+- Mission: image link in HTML
+	+ Black opacity not working - might consider deleing them altogether
+- Border-bottom not behaving appropriately on page 1
